@@ -16,7 +16,6 @@ function scissorChoice(){
 
 function getWinner(userC){
   compC=computerChoice();
-  
   let eval=userC+compC;
   
   switch(eval){
